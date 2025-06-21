@@ -1,4 +1,5 @@
 {
+  "homepage":"https://github.com/ShaRaTechnovate/ecom.git",
   "name": "print-on",
   "version": "0.1.0",
   "private": true,
@@ -56,7 +57,9 @@
     "build": "react-scripts build",
     "build:dev": "VITE_NODE_ENV=development react-scripts build --mode dev && cd ../ && rm -rf static && cd printon && mv ./build/* ../",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -75,5 +78,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
