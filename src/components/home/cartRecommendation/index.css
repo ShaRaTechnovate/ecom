@@ -1,0 +1,23 @@
+.cart-rec-con {
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #f3f3f3;
+}
+
+
+@media (max-width: 568px) {
+    .cart-rec-con {
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 10px;
+    }
+}
+
+.bannerAd {
+    width: 100%;
+}

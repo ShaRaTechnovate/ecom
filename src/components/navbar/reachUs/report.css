@@ -1,0 +1,53 @@
+/* report.css */
+
+.report-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.Title-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.submitbtn {
+    background-color: #e4510b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submitbtn:hover {
+    background-color: #bd4710;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    .Title-card {
+        padding: 15px;
+    }
+}

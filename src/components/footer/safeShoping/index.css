@@ -1,0 +1,22 @@
+.safe-shoping-head {
+    margin-top: 80px;
+}
+
+.safeShopping-para {
+    font-weight: 500;
+    font-style: normal;
+    white-space: pre-wrap;
+    color: rgb(98, 107, 127);
+    line-height: 1.7em;
+    font-size: 16px;
+    text-decoration-line: none;
+}
+
+.safe-shopping-left {
+    width: 650px;
+}
+
+.safe-shopping-logo {
+    height: 60px;
+    width: 70px;
+}

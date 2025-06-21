@@ -1,0 +1,155 @@
+.overview-btn {
+    background-color: #e4510b !important;
+    border: none !important;
+    padding: 10px !important;
+}
+
+.overview-btn:hover {
+    background-color: #bd4710 !important;
+}
+
+.eye-icon-container {
+    position: relative;
+}
+
+.hover-image {
+    position: absolute;
+    z-index: 200;
+    margin-left: 150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .hover-image {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 576px) {
+    .hover-image {
+        height: 10px !important;
+        width: 100% !important;
+    }
+}
+
+
+.descImg {
+    position: absolute;
+    z-index: 200;
+    margin-left: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .descImg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.viewImg {
+    position: absolute;
+    z-index: 200;
+    margin-left: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .viewImg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mainImg {
+    position: absolute;
+    z-index: 200;
+    margin-left: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .mainImg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.GalleryImg {
+    position: absolute;
+    z-index: 200;
+    margin-left: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .GalleryImg {
+    visibility: visible;
+    opacity: 1;
+}
+
+.multiBtn {
+    background-color: #e4510b !important;
+    border: #bd4710 !important;
+    padding: 10px !important;
+
+}
+
+.fulldesc {
+    position: absolute;
+    z-index: 200;
+    margin-left: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .fulldesc {
+    visibility: visible;
+    opacity: 1;
+}
+
+.option {
+    position: absolute;
+    z-index: 200;
+    margin-left: 550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.eye-icon-container:hover .option {
+    visibility: visible;
+    opacity: 1;
+}

@@ -1,0 +1,89 @@
+.login-popup-body {
+    background-image: url(../../../src/assets/images/banner/beautiful-girl-showing-measurement-with-hands-smiling-high-quality-photo\ copy\ 1\ \(1\).jpg);
+    padding: 20px 10px 50px 10px;
+    border-radius: 5px;
+}
+
+
+.login-popup-close {
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: -10px;
+    background: grey;
+    cursor: pointer;
+}
+
+.login-popup-close:hover {
+    transform: scale(1.1);
+}
+
+.login-popup-head {
+    color: #efefef;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.login-popup-para {
+    font-size: 17px;
+    font-weight: 400;
+    color: #efefef;
+    font-family: 'Lato', sans-serif;
+}
+
+.login-popup-para1 {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 12px;
+}
+
+
+.login-popup-email-input {
+    box-sizing: border-box;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 0px 0px 0px 16px;
+    height: 38px;
+    width: 320px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(180, 187, 195);
+
+}
+
+.login-popup-email-btn {
+
+    background: rgb(57, 155, 57);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-style: none;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px;
+    color: white;
+    font-family: Nunito, Geneva, Tahoma, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 1;
+    white-space: normal;
+    padding: 11px 10px 15px;
+    text-align: center;
+    word-break: break-word;
+    align-self: flex-end;
+    cursor: pointer;
+    height: 38px;
+}
+
+@media(max-width:475px) {
+    .login-popup-email-btn {
+        padding-bottom: 40px;
+    }
+
+    .login-popup-email-input {
+        height: 50px;
+    }
+}

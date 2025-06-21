@@ -1,0 +1,63 @@
+student list get
+----------------------------------
+
+api : {{base_url}}/assessment/studentlist/download/65aa189185e4041dbddd8fe4
+
+method : get
+
+query fields : 
+status : submitted , notSubmitted 
+search : firstname (rahul), lastname (sharma),
+perPage,
+currentPage
+
+responce : 
+
+{
+    "result": {
+        "output": [
+            {
+                "assessment_id": "65aa189185e4041dbddd8fe4",
+                "student_id": "64d4b475ed98e9d734861077",
+                "name": "abdul baruk",
+                "downloaded": true,
+                "status": "pending",
+                "toalMark": 100,
+                "isDelay": false,
+                "delayDays": 0
+            },
+            {
+                "assessment_id": "65aa189185e4041dbddd8fe4",
+                "student_id": "64c552f54878e7e72b9e2c5e",
+                "name": "rahul sharma",
+                "downloaded": true,
+                "status": "pending",
+                "toalMark": 100,
+                "isDelay": false,
+                "delayDays": 0
+            },
+            {
+                "assessment_id": "65aa189185e4041dbddd8fe4",
+                "student_id": "64c553004878e7e72b9e2c69",
+                "name": "ashif ali",
+                "downloaded": true,
+                "status": "completed",
+                "toalMark": 100,
+                "isDelay": false,
+                "delayDays": 0,
+                "upload_id": "65aa1adb85e4041dbddd9433",
+                "submittedDate": "2024-01-19T06:47:04.177Z",
+                "file": "https://samsel.s3.ap-south-1.amazonaws.com/mgr/public/assessment/file-17akn5wrmlrka2vo1.jpg"
+            }
+        ],
+        "total": 3,
+        "submitted": 1,
+        "notSubmitted": 2,
+        "pagination": {
+            "currentPage": 0,
+            "pages": 1,
+            "total": 3
+        }
+    },
+    "msg": "Data fetched successfully"
+}

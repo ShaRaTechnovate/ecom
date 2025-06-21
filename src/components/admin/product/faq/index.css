@@ -1,0 +1,57 @@
+.fqa-tab {
+    border: 1px solid gray;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    /* width: 700px; */
+    cursor: pointer;
+}
+
+.faq-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(111, 111, 111);
+    margin: 15px;
+}
+
+.faq-description {
+    font-size: 15px;
+    color: rgb(154, 154, 154);
+}
+
+.faq-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+.faq-content.open {
+    max-height: 150px;
+    overflow: scroll;
+    /* Set the max height to a value larger than your content */
+}
+
+.faq-x {
+    border-left: 1px solid gray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.faq-edit {
+    border-left: 1px solid gray;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .fqa-tab {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+}

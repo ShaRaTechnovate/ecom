@@ -1,0 +1,13 @@
+.add-modal-btn {
+    background-color: #e4510b !important;
+    border: none !important;
+}
+
+.add-modal-btn:hover {
+    background-color: #e4510b !important;
+}
+
+.add-modal-header {
+    background-color: #e4510b;
+    color: white;
+}

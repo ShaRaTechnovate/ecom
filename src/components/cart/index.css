@@ -1,0 +1,89 @@
+.cart-summary {
+    border: 1px solid rgb(207, 207, 207);
+}
+
+.cart-summary-para {
+    color: rgb(102, 102, 102);
+}
+
+.cart-summary-voucher {
+    background-color: rgb(237, 237, 237);
+}
+
+.order-now-btn {
+    height: 50px;
+    width: 100%;
+    background-color: #e4510b;
+    border: none;
+    color: white;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.order-now-btn:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-color: #df4700;
+}
+
+.cart-card {
+    border: 1px solid rgb(207, 207, 207);
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-title {
+    color: #333333;
+}
+
+.cart-left {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.cart-quantity {
+    color: rgb(102, 102, 102);
+}
+
+.cart-right {
+    width: 100%;
+}
+
+@media (max-width: 568px) {
+    .cart-card {
+        flex-direction: column;
+    }
+
+    .cart-left {
+        margin-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .cart-left {
+        width: 100%;
+        height: 280px;
+    }
+}
+
+.empty-card-img {
+    height: 400px;
+}
+
+@media (max-width:568px) {
+    .empty-card-img {
+        height: 300px;
+    }
+}
+
+
+.editQuantityInput {
+    height: 40px;
+}
+
+.editquantityBtn {
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: green;
+}

@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+
+
+.SocialFeeds {
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.feed-card {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feed-card:hover {
+
+    transform: scale(1.1);
+}
+
+
+
+
+.tabs {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    transition: all 0.2s ease-in-out;
+}
+
+.tabs:hover {
+    transition: all 0.2s ease-in-out;
+}
+
+.tab-list {
+    color: #e4510b !important;
+    padding-left: 0;
+    background: transparent;
+    font-weight: 600;
+
+
+}
+
+.tab-list:hover {
+    transform: scale(1.1);
+}
+
+.tab-list-item {
+
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 560px) {
+    .tab-list-item {
+        min-width: 100%;
+
+    }
+
+    .tabs {
+        width: 100%;
+    }
+}
+
+.tab-list-item:hover {
+    background: var(--tab-list-bg-hover);
+    transition: var(--main-transition);
+}
+
+.tab-content {
+    text-align: left;
+    background-color: var(--main-bg-color);
+    min-height: 30vh;
+}
+
+.tab-list-active {
+    background-color: var(--main-bg-color);
+    color: rgb(65, 61, 61);
+    transition: var(--main-transition);
+}
+
+.tab-list-active:hover {
+    background: var(--main-bg-color);
+}

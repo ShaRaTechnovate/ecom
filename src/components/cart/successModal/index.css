@@ -1,0 +1,9 @@
+.success-modal-btn {
+    height: 46px;
+    width: 186px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    background-color: #e4510b;
+    border-radius: 35px;
+}

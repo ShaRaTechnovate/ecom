@@ -1,0 +1,10 @@
+.addProductBtn {
+    height: 46px;
+    width: 146px;
+    border: none;
+    background-color: #e4510b;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-left: auto;
+}

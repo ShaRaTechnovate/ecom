@@ -1,0 +1,60 @@
+.modern-modal {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.modern-modal-header {
+    background-color: #e4510b;
+    color: #fff;
+}
+
+.auth-head {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.modern-modal-footer {
+    background-color: #e4510b !important;
+
+}
+
+.toggle-form {
+    cursor: pointer;
+    color: #3498db;
+}
+
+.modern-modal input {
+    border: 1px solid #e4510b;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.modern-modal input:hover {
+    border-color: #e4510b;
+}
+
+.modern-modal input:focus {
+    border-color: #e4510b;
+}
+
+.auth-button {
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+}
+
+.auth-button:hover {
+    border: 2px solid black;
+}
+
+.auth-features-head {
+    font-family: 'Lato', sans-serif;
+
+}
+
+.auth-features-para {
+    font-family: 'Lato', sans-serif;
+}

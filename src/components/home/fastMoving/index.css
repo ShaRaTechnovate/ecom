@@ -1,0 +1,49 @@
+.fast-head {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: #050505;
+    margin-bottom: 40px;
+}
+
+.fast-head-line {
+    border: 1px solid grey;
+}
+
+.view-all-fast {
+    text-align: center;
+    color: #e4510b;
+    font-weight: bold;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 568px) {
+    .fast-head {
+        font-size: 40px;
+    }
+
+    .fast-head-line {
+        display: none;
+    }
+}
+
+@media (max-width: 1485px) {
+    .fast-head {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1005px) {
+    .fast-head {
+        font-size: 30px;
+    }
+}
+
+.fast-card {
+    transition: transform 0.3s;
+}
+
+.fast-card:hover {
+    transform: scale(0.9);
+}

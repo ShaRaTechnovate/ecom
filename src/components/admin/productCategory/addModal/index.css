@@ -1,0 +1,20 @@
+.modal-label {
+    font-family: roboto;
+    font-weight: 500;
+    padding-top: 10px;
+
+}
+
+.add-modal-btn {
+    width: 100%;
+    background-color: #E4510B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+
+.addmodal-close:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

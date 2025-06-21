@@ -1,0 +1,47 @@
+.stationary-page {
+    background: white;
+    border: 1px solid grey !important;
+    border-radius: 10px;
+}
+
+.menu-modal-open {
+    border-radius: 20px;
+    padding: 20px;
+    /* position: absolute;
+    z-index: 100px; */
+}
+
+.menu-modal-content {
+    margin-top: 10px;
+    /* display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex; */
+    /* flex-wrap: wrap; */
+    flex: 1;
+}
+
+.bannerMenus {
+    /* width: 450px !important; */
+    height: 100%;
+}
+
+.menu-modal-content p {
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+.menu-modal-line {
+    margin-top: 0px;
+    margin-bottom: 2px;
+    width: 80%;
+}
+
+.menu-modal-product {
+    cursor: pointer !important;
+}
+
+.menu-modal-product:hover {
+    color: #e44324;
+}

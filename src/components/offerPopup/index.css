@@ -1,0 +1,32 @@
+.offer-popup-openmodal {
+    height: 1500px;
+}
+
+.offer-popup-body {
+    background-image: url(../../../src/assets/images/banner/Group\ 1410108891\ \(2\).jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 510px;
+}
+
+.modal-content {
+    border-radius: 15px !important;
+}
+
+.offer-popup-heading {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: aqua;
+
+}
+
+.offer-popup-heading1 {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    font-style: bold;
+}

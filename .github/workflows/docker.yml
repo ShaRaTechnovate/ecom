@@ -1,0 +1,29 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+
+      - development
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: SSH and deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: 178.16.139.32
+          username: root
+          key: ${{ secrets.HOSTINGER_PRIVATE }}
+          script: |
+
+            cd /home/dev.printon.co.in/public_html/printon
+            git pull origin development
+            npm run build
+            cd ../ && rm -rf static && cd printon && mv ./build/* ../
+            npm start

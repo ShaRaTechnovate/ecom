@@ -1,0 +1,73 @@
+.shopnow {
+    text-decoration: underline;
+}
+
+.product-card-con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 310px !important;
+    margin: 2px;
+    border: 2px solid rgb(255, 255, 255) !important;
+}
+
+.product-card:hover {
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid black !important;
+}
+
+.product-card-description {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: rgb(90, 90, 90);
+    margin: 0px;
+    padding: 0px;
+}
+
+.product-card-title {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 568px) {
+    .product-card-con {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .product-card-con {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1490px) {
+    .product-card-con {
+        justify-content: center;
+    }
+}
+
+.product-overall-title {
+    font-size: 30px;
+    color: rgb(76, 76, 76);
+    margin-bottom: 7px;
+    margin-top: 30px;
+}
+
+@media (max-width: 568px) {
+    .product-overall-title {
+        font-size: 22px;
+        text-align: center;
+    }
+}

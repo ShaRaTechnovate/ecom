@@ -1,0 +1,31 @@
+.about-con {
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #f3f3f3;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-head {
+    font-weight: 300;
+    text-align: center;
+}
+
+.about-btn {
+    font-size: .9375rem;
+    background-color: #1E1E1E;
+    border-color: transparent;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: -.23px;
+    line-height: 14px;
+    width: 100%;
+    font-weight: 700;
+    padding: 9px 12px;
+    margin-top: 16px;
+}
